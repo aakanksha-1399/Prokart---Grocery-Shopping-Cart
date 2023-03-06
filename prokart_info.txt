@@ -1,0 +1,4 @@
+Prokart is smart shopping project
+which help customers to buy products 
+from grocery store without waiting in 
+long queue by belf billing mechanism

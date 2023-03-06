@@ -1,0 +1,93 @@
+body
+{
+  background: #fcfafa;
+}
+.header
+{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #160f30;
+  font-family: courier,arial,helvetica;
+  color:white;
+}
+#head
+{
+  text-align:center;
+}
+.nav
+{
+
+  list-style: none;
+  margin-top: 0%;
+  padding: 0;
+
+}
+.navbar
+{
+
+  font-size: 200%;
+  background-color: #ffcbcb;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+
+}
+
+.bulletin
+{
+  margin-right: 1.5%;
+  list-style: none;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr ;
+  background-color: #ffcbcb;
+  font-style: courier,arial,helvetica;
+  padding-right: 2.5%;
+
+}
+
+a
+{
+  margin-top: 0%;
+  text-decoration: none;
+  color: #e16363;
+}
+a:hover
+{
+  color: red;
+}
+.gridi
+{
+  height: 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+
+}
+.content
+{
+  font-size: 120%;
+  font-family: courier,arial,helvetica;
+}
+.final
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5em 5em;
+  grid-column-gap: 2em;
+  text-align: center;
+  
+
+
+}
+.final>p:nth-child(odd)
+{
+  background-color:#ff4893;
+  color: white;
+}
+.final>p:nth-child(even)
+{
+  background-color: #200f21;
+  color: white;
+}
